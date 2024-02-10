@@ -1,0 +1,82 @@
+.body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+  }
+
+.register {
+    
+    width: 600px;
+    height: 600px;
+    background-image: linear-gradient(to bottom, #424242,#212121);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+  }
+  
+  .register h1 {
+    color: wheat;
+    margin: 3rem 0;
+    font-size: 2rem;
+  }
+  
+  .register input {
+    margin: 0.5rem 0;
+    padding: 1rem 0.5rem;
+    width: 20rem;
+    background-color: inherit;
+    color: wheat;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid wheat;
+    transition: all 400ms;
+  }
+  
+  .register input:hover {
+    background-color: #424242;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  .register .button {
+    height: 3rem;
+    width: 20rem;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.7rem;
+    background-color: wheat;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.3rem;
+    transition: all 400ms;
+    cursor: pointer;
+    box-shadow: 0 0 10px antiquewhite, 0 0 10px antiquewhite;
+  }
+  
+  .register .button:hover {
+    background-color: antiquewhite;
+    box-shadow: none;
+  }
+  
+  .register div {
+    color: rgb(14, 14, 14);
+    margin: 1rem 0;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
+  .sp {
+    color: wheat;
+    margin: 0.7rem 0;
+    font-size: 1.5rem;
+  }
+  
+  

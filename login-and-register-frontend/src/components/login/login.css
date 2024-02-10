@@ -1,0 +1,83 @@
+.back {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+  }
+
+
+.login {
+    
+    width: 600px;
+    height: 600px;
+    background-image: linear-gradient(to bottom, #424242,#212121);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+  }
+  
+  .login h1,h3 {
+    color: wheat;
+    margin: 3rem 0;
+    font-size: 2rem;
+  }
+  
+  .login input {
+    margin: 0.5rem 0;
+    padding: 1rem 0.5rem;
+    width: 20rem;
+    background-color: inherit;
+    color: wheat;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid wheat;
+    transition: all 400ms;
+  }
+  
+  .login input:hover {
+    background-color: #424242;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  .login .button {
+    height: 3rem;
+    width: 20rem;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: wheat;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.3rem;
+    transition: all 400ms;
+    cursor: pointer;
+    box-shadow: 0 0 10px antiquewhite, 0 0 10px antiquewhite;
+  }
+  
+  .login .button:hover {
+    background-color: antiquewhite;
+    box-shadow: none;
+  }
+  
+  .login div {
+    color: rgb(14, 14, 14);
+    margin: 0.5rem 0;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
+  .login h3{
+    color: wheat;
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+  }
+  
+  
